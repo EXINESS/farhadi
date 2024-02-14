@@ -33,3 +33,30 @@ body {
     border-radius: 5px;
     padding: 10px;
 }
+
+#banner {
+    background-image: url('darkweb2.jpg');
+    background-size: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    /* تغییرات افقی فلکس باکس */
+    align-items: center;
+    /* تغییرات عمودی فلکس باکس */
+}
+
+img {
+    position: fixed;
+    height: 200px;
+    width: 100px;
+    right: 1400px;
+    bottom: 540px;
+}
+
+#banner h1 {
+    font-size: 48px;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
