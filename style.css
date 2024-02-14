@@ -60,3 +60,36 @@ img {
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+#features {
+    background-color: #000000;
+    padding: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#features h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+.feature-box {
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #1c2023;
+    color: #ffffff;
+}
+
+.feature-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 15px;
+}
