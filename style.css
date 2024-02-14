@@ -93,3 +93,10 @@ img {
 .feature-box p {
     font-size: 15px;
 }
+
+#footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
