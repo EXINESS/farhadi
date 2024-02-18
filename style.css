@@ -32,6 +32,7 @@ body {
     border: none;
     border-radius: 5px;
     padding: 10px;
+    text-decoration: none;
 }
 
 #banner {
