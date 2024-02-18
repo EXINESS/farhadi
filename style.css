@@ -21,7 +21,7 @@ body {
 }
 
 
-#header button {
+#header a {
     position: relative;
     height: 70px;
     width: 100px;
