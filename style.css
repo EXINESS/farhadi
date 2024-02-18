@@ -55,10 +55,10 @@ img {
 }
 
 #banner h1 {
-    font-size: 48px;
-    color: #f8f9fa;
+    font-size: 2em;
+    color: rgba(252, 252, 252, 0.952);
     text-align: center;
-    padding: 30px;
+    padding: 1.5em;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
