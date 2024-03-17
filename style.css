@@ -20,6 +20,12 @@ body {
     height: 200px;
 }
 
+#header ul {
+    list-style: none;
+}
+#header li {
+    list-style: none;
+}
 
 #header a {
     position: relative;
