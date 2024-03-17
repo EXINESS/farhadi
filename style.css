@@ -27,12 +27,27 @@ body {
     list-style: none;
 }
 
+#ul-header1 {
+    right: -550px;
+    bottom: 70px;
+}
+
+#ul-header2 {
+    right: -550px;
+    bottom: 50px; 
+}
+
+#ul-header3 {
+    right: -550px;
+    bottom: 30px;
+}
+
 #header a {
     position: relative;
-    height: 70px;
+    height: 50px;
     width: 100px;
     right: -550px;
-    bottom: 100px;
+    bottom: 70px;
     background-color:rgba(44, 44, 44, 0.5);
     color: #ffffff;
     border: none;
