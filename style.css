@@ -1,0 +1,146 @@
+:root {
+    --black: hsl(0, 0%, 0%);
+    --milky: hsl(0, 0%, 100%);
+    --background: hsla(0, 0%, 0%, 0.5);
+}
+
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--black);
+}
+
+h1, h2, h3, a, p, footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: var(--milky);
+
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: var(--black);
+
+    padding-block-start: 1rem;
+    
+    color: var(--milky); 
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+header img {
+    inline-size: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    block-size: 60rem;
+    background-image: url('assets/image/coding\ banner.webp');
+    background-size: 100%;
+
+    color: var(--milky);
+}
+
+.banner h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background-color: var(--background);
+    color: var(--milky);
+    padding: 1.5em;
+
+    font-size: 4em; 
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: var(--black);
+    padding: 10rem;
+    color: var(--milky);
+}
+
+.features h2 {
+    padding-block-end: 2rem;
+
+    font-size: 4rem;
+    /* margin-bottom: 2rem; */
+}
+
+.features ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+
+    background-color: var(--background);
+    padding: 1.5rem;
+    color: var(--milky); 
+
+    font-weight: bold;
+}
+
+.features li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.features h3 {
+    font-size: 2rem;
+}
+
+.features p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--background);
+    padding: 2rem;
+
+    color: var(--milky);
+    font-size: 2rem;
+}
