@@ -1,7 +1,7 @@
 :root {
     --black: hsl(0, 0%, 0%);
+    --black-alpha: hsla(0, 0%, 0%, 0.5);
     --milky: hsl(0, 0%, 100%);
-    --background: hsla(0, 0%, 0%, 0.5);
 }
 
 * {
@@ -41,8 +41,8 @@ header {
     background-color: var(--black);
 
     padding-block-start: 1rem;
-    
-    color: var(--milky); 
+
+    color: var(--milky);
     font-weight: bold;
 }
 
@@ -50,6 +50,7 @@ header ul {
     display: flex;
     align-items: center;
     gap: 2rem;
+
     font-size: 1.5rem;
 }
 
@@ -67,7 +68,8 @@ header h1 {
     align-items: center;
 
     block-size: 60rem;
-    background-image: url('assets/image/coding\ banner.webp');
+
+    background-image: url('assets/image/coding banner.webp');
     background-size: 100%;
 
     color: var(--milky);
@@ -78,40 +80,43 @@ header h1 {
     align-items: center;
     text-align: center;
 
-    background-color: var(--background);
-    color: var(--milky);
-    padding: 1.5em;
+    background-color: var(--black-alpha);
 
-    font-size: 4em; 
+    padding: 1.5rem;
+
+    color: var(--milky);
+    font-size: 4rem;
 }
 
 .features {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     background-color: var(--black);
+
     padding: 10rem;
+
     color: var(--milky);
 }
 
 .features h2 {
     padding-block-end: 2rem;
-
-    font-size: 4rem;
-    /* margin-bottom: 2rem; */
+    
+    font-size: 4rem; 
 }
 
 .features ul {
     display: flex;
     align-items: center;
-    text-align: center;
-    gap: 2rem;
+    justify-content: space-evenly;
+    gap: 6rem;
 
-    background-color: var(--background);
+    background-color: var(--black-alpha);
+
     padding: 1.5rem;
-    color: var(--milky); 
 
+    color: var(--milky);
     font-weight: bold;
 }
 
@@ -121,7 +126,6 @@ header h1 {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-
 }
 
 .features h3 {
@@ -138,7 +142,8 @@ footer {
     align-items: center;
     justify-content: center;
 
-    background-color: var(--background);
+    background-color: var(--black-alpha);
+
     padding: 2rem;
 
     color: var(--milky);
