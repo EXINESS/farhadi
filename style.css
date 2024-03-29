@@ -149,3 +149,27 @@ footer {
     color: var(--milky);
     font-size: 2rem;
 }
+
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    color: var(--milky);
+    font-size: 1rem;
+}
+
+.text1 {
+    transform: rotateY(0deg) translateZ(100px);
+}
+
+.text2 {
+    transform: rotateY(120deg) translateZ(300px);
+}
+
+.text3 {
+    transform: rotateY(240deg) translateZ(350px);
+}
+
+/* .next { right: 5rem;} v */
