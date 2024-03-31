@@ -118,6 +118,8 @@ header h1 {
 
     color: var(--milky);
     font-weight: bold;
+
+    position: relative;
 }
 
 .features li {
@@ -151,25 +153,15 @@ footer {
 }
 
 .next {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-    color: var(--milky);
-    font-size: 1rem;
+    position: absolute;
+    top: 56%;
+    right: -2%;
+    transform: -50%;
 }
 
-.text1 {
-    transform: rotateY(0deg) translateZ(100px);
+.prev {
+    position: absolute;
+    top: 49%;
+    left: -2%;
+    transform: -50%;
 }
-
-.text2 {
-    transform: rotateY(120deg) translateZ(300px);
-}
-
-.text3 {
-    transform: rotateY(240deg) translateZ(350px);
-}
-
-/* .next { right: 5rem;} v */
