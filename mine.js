@@ -22,9 +22,9 @@
 var currentIndex = 1;
     function displaySlide(n) {
     currentIndex = n;
-        var slides = document.getElementsByClassName("slide");
-        var dots = document.getElementsByClassName("dot");
-        var slno = document.getElementById("slide-no");
+        var text1 = document.getElementsByClassName("text1");
+        var text2 = document.getElementsByClassName("text2");
+        var text3 = document.getElementById("text3");
 
         if (currentIndex > slides.length) {
             currentIndex = 1;
@@ -34,13 +34,13 @@ var currentIndex = 1;
         currentIndex = slides.length;
       }
       for (var i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-        dots[i].className = dots[i].className.replace(" active", "");
+        text[i].style.display = "none";
+        text[i].className = text[i].className.replace(" active", "");
       }
     
-      slides[currentIndex - 1].style.display = "block";
-      dots[currentIndex - 1].className = "dot active";
-      slno.innerHTML = currentIndex + "/" + slides.length;
+      text[currentIndex - 1].style.display = "";
+      text[currentIndex - 1].className = "";
+      slno.innerHTML = currentIndex + "/" + text.length;
     }
     
     displaySlide(currentIndex);
