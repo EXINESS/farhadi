@@ -36,31 +36,5 @@ function reverse (){
         Text4.innerHTML = tmp1;
 }
 
-
-
-
-
-
 let prev = document.querySelector('prev');
 let next = document.querySelector('next');
-
-
-
-// slider();
-
-// let Text1;
-//     Text1 = document.querySelector("ul li.text1");
-    
-// let Text2;
-//     Text2 = document.querySelector("ul li.text2");
-    
-// let Text3;
-//     Text3 = document.querySelector("ul li.text3");
-    
-//         let tmp = Text1.innerHTML;
-//             Text1.innerHTML = Text2.innerHTML;
-//             Text2.innerHTML = Text3.innerHTML;
-//             Text3.innerHTML = tmp;
-
-
-
