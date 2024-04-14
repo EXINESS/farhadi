@@ -154,14 +154,12 @@ footer {
 
 .next {
     position: absolute;
-    top: 56%;
-    right: -2%;
-    transform: -50%;
+    inset-block-start: 56%;
+    inset-inline-start: -2%;
 }
 
 .prev {
     position: absolute;
-    top: 49%;
-    left: -2%;
-    transform: -50%;
+    inset-block-start: 49%;
+    inset-inline-end: -2%;
 }
