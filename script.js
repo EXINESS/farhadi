@@ -1,12 +1,9 @@
 function slider (){
-    let Text1;
-        Text1 = document.querySelector("ul li.text1");
+    let Text1 = document.querySelector("ul li.text1");
 
-    let Text2;
-        Text2 = document.querySelector("ul li.text2");
+    let Text2 = document.querySelector("ul li.text2");
 
-    let Text3;
-        Text3 = document.querySelector("ul li.text3");
+    let Text3 = document.querySelector("ul li.text3");
 
     let tmp = Text1.innerHTML;
         Text1.innerHTML = Text2.innerHTML;
@@ -20,15 +17,13 @@ setInterval( slider, 3000);
 
 run();
 
+
 function reverse (){
-    let Text4;
-        Text4 = document.querySelector("ul li.text1");
+    let Text4 = document.querySelector("ul li.text1");
 
-    let Text5;
-        Text5 = document.querySelector("ul li.text2");
+    let Text5 = document.querySelector("ul li.text2");
 
-    let Text6;
-        Text6 = document.querySelector("ul li.text3");
+    let Text6 = document.querySelector("ul li.text3");
 
     let tmp1 = Text6.innerHTML;
         Text6.innerHTML = Text5.innerHTML;
