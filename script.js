@@ -1,35 +1,23 @@
-function slider (){
-    let Text1 = document.querySelector("ul li.text1");
+const texts = document.querySelectorAll(".features ul li");
 
-    let Text2 = document.querySelector("ul li.text2");
+const rotateFeatures = (isRotateLeft) => {
+  if (isRotateLeft) {
+    const tmp = texts[1].innerHTML;
 
-    let Text3 = document.querySelector("ul li.text3");
+    for (let i = 1; i < texts.length - 2; i++) {
+      texts[i].innerHTML = texts[i + 1].innerHTML;
+    }
 
-    let tmp = Text1.innerHTML;
-        Text1.innerHTML = Text2.innerHTML;
-        Text2.innerHTML = Text3.innerHTML;
-        Text3.innerHTML = tmp;
-}
+    texts[texts.length - 2].innerHTML = tmp;
+  } else {
+    const tmp = texts[texts.length - 2].innerHTML;
 
-function run(){
-setInterval( slider, 3000);
-}
+    for (let i = texts.length - 3; i > 0; i--) {
+      texts[i + 1].innerHTML = texts[i].innerHTML;
+    }
 
-run();
+    texts[1].innerHTML = tmp;
+  }
+};
 
-
-function reverse (){
-    let Text4 = document.querySelector("ul li.text1");
-
-    let Text5 = document.querySelector("ul li.text2");
-
-    let Text6 = document.querySelector("ul li.text3");
-
-    let tmp1 = Text6.innerHTML;
-        Text6.innerHTML = Text5.innerHTML;
-        Text5.innerHTML = Text4.innerHTML;
-        Text4.innerHTML = tmp1;
-}
-
-let prev = document.querySelector('prev');
-let next = document.querySelector('next');
+setInterval(() => rotateFeatures(false), 3000);

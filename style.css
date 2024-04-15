@@ -130,6 +130,18 @@ header h1 {
     gap: 1rem;
 }
 
+.features li.prev {
+    position: absolute;
+    inset-block-start: 56%;
+    inset-inline-start: -2%;
+}
+
+.features li.next {
+    position: absolute;
+    inset-block-start: 49%;
+    inset-inline-end: -2%;
+}
+
 .features h3 {
     font-size: 2rem;
 }
@@ -150,16 +162,4 @@ footer {
 
     color: var(--milky);
     font-size: 2rem;
-}
-
-.next {
-    position: absolute;
-    inset-block-start: 56%;
-    inset-inline-start: -2%;
-}
-
-.prev {
-    position: absolute;
-    inset-block-start: 49%;
-    inset-inline-end: -2%;
 }
