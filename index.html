@@ -30,7 +30,11 @@
     <section class="features">
         <h2>انواع برنامه نویسی وب</h2>
 
-        <ul>
+        <ul class="text">
+            <li class="prev">
+                <button onclick="rotateFeatures(true)">Prev</button>
+            </li>
+
             <li>
                 <h3><a href="#">برنامه نویسی فرانت اند(Front End)</a></h3>
 
@@ -48,11 +52,17 @@
 
                 <p> به مجموعه‌ای از تکنولوژی‌ها و مهارت‌های لازم برای طراحی سایت و برنامه نویسی در هر دو بخش فرانت‌اند و بک‌اند یک وب سایت گفته می‌شود.</p>
             </li>
+
+            <li class="next">
+                <button onclick="rotateFeatures(false)">Next</button>
+            </li>
         </ul>
     </section>
     
     <footer>
         &copy; تمامی حقوق این سایت برای IR است.
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>

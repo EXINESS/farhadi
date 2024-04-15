@@ -118,6 +118,8 @@ header h1 {
 
     color: var(--milky);
     font-weight: bold;
+
+    position: relative;
 }
 
 .features li {
@@ -126,6 +128,18 @@ header h1 {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+
+.features li.prev {
+    position: absolute;
+    inset-block-start: 56%;
+    inset-inline-start: -2%;
+}
+
+.features li.next {
+    position: absolute;
+    inset-block-start: 49%;
+    inset-inline-end: -2%;
 }
 
 .features h3 {
